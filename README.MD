@@ -4,21 +4,6 @@ A flexible, multi-provider LLM chatbot framework powered by the **Model Context 
 
 ---
 
-## Features
-
-| Feature | Description |
-|---|---|
-| Multi-Provider Support | Switch between OpenAI, Anthropic, Groq, Gemini, Ollama, and OpenRoute |
-| Dual Interface | CLI (`ChatMCP.py`) or web UI (`FlaskMCP.py`) |
-| MCP Tool Ecosystem | Web search, GitHub, Gmail, browser automation, and more |
-| Custom Tool Support | Plug in any MCP-compatible server |
-| Resilient Architecture | Circuit breakers, retries, health checks, graceful degradation |
-| Async Core | Concurrent connections and operations via asyncio |
-| Token Tracking | Monitor token usage per request across providers |
-| Performance Metrics | Response time and token counts per interaction |
-
----
-
 ## Getting Started
 
 ### Prerequisites
@@ -31,8 +16,8 @@ A flexible, multi-provider LLM chatbot framework powered by the **Model Context 
 
 **1. Clone the repository**
 ```bash
-git clone
-cd
+git clone https://github.com/alpha-alphv/Agent-MCP-CLI.git
+cd Agent-MCP-CLI
 ```
 
 **2. Install dependencies**
